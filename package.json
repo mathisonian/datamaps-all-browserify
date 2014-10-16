@@ -1,17 +1,27 @@
 {
   "name": "datamaps-all-browserify",
-  "description": "datamaps with d3.js, packaged to be used with browserify",
   "version": "0.3.4",
-  "authors": "Matthew Conlen <code@mathisonian.com>",
-  "dependencies": {
-    "d3": "^3.4.9",
-    "topojson": "^1.6.18",
-  },
+  "description": "datamaps with d3.js, packaged to be used with browserify",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mathisonian/datamaps-all-browserify.git"
+  },
   "keywords": [
     "datamaps",
-    "browser",
     "browserify"
   ],
-  "license": "MIT"
+  "author": "Matthew Conlen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathisonian/datamaps-all-browserify/issues"
+  },
+  "homepage": "https://github.com/mathisonian/datamaps-all-browserify",
+  "dependencies": {
+    "d3": "^3.4.12",
+    "topojson": "^1.6.18"
+  }
 }
