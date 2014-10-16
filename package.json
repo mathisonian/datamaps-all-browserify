@@ -1,0 +1,17 @@
+{
+  "name": "datamaps-all-browserify",
+  "description": "datamaps with d3.js, packaged to be used with browserify",
+  "version": "0.3.4",
+  "authors": "Matthew Conlen <code@mathisonian.com>",
+  "dependencies": {
+    "d3": "^3.4.9",
+    "topojson": "^1.6.18",
+  },
+  "main": "index.js",
+  "keywords": [
+    "datamaps",
+    "browser",
+    "browserify"
+  ],
+  "license": "MIT"
+}
